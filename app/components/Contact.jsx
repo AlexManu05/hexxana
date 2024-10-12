@@ -11,6 +11,7 @@ import "aos/dist/aos.css";
 function Contact() {
   const [state, handleSubmit] = useForm("mdkoonyg");
 
+  // Ensure hooks are called unconditionally
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -90,13 +91,9 @@ function Contact() {
                 Contact
               </h1>
             </div>
-            {/* Conditionally render form or success message */}
-            {state.succeeded ? (
-              <p>
-                Thanks for emailing us. We will get back to you as soon as
-                possible. No Borders..Just Music!
-              </p>
-            ) : (
+
+            {/* Render form or success message */}
+            {!state.succeeded ? (
               <form onSubmit={handleSubmit} className="flex flex-col gap-4">
                 <div className="flex flex-col gap-2">
                   <label htmlFor="name" className="text-custom-red text-xl">
@@ -106,6 +103,7 @@ function Contact() {
                     className="p-4 bg-transparent border border-gray-700 outline-none"
                     name="name"
                     id="name"
+                    required
                   />
                 </div>
                 <div className="flex flex-col gap-2">
@@ -150,6 +148,11 @@ function Contact() {
                   Send
                 </button>
               </form>
+            ) : (
+              <p>
+                Thanks for emailing us. We will get back to you as soon as
+                possible. No Borders...Just Music!
+              </p>
             )}
           </div>
         </div>
