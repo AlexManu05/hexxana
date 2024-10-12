@@ -10,14 +10,7 @@ import "aos/dist/aos.css";
 
 function Contact() {
   const [state, handleSubmit] = useForm("mdkoonyg");
-  if (state.succeeded) {
-    return (
-      <p>
-        Thanks for emailing us. We will get back to you as soon as possible. No
-        Borders..Just Music!
-      </p>
-    );
-  }
+
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -32,9 +25,9 @@ function Contact() {
     >
       <div className="w-full h-full flex flex-col gap-4 md:flex-row bg-opacity-60 md:py-48">
         {/* Left Side */}
-        <div className=" w-full md:w-1/2 flex flex-col py-10  ">
+        <div className="w-full md:w-1/2 flex flex-col py-10">
           <div
-            className=" relative w-3/4 left-1/4 flex flex-col gap-10"
+            className="relative w-3/4 left-1/4 flex flex-col gap-10"
             data-aos="fade-right"
           >
             <div>
@@ -53,7 +46,7 @@ function Contact() {
                 hexxanasu@yahoomail.com
               </p>
             </div>
-            <div className="flex flex-col gap-4 ">
+            <div className="flex flex-col gap-4">
               <h1 className="text-4xl md:text-6xl font-loura font-bold text-custom-red">
                 Socials
               </h1>
@@ -87,7 +80,7 @@ function Contact() {
           </div>
         </div>
         {/* Right Side */}
-        <div className="w-full md:w-1/2 h-screen flex flex-col items-center ">
+        <div className="w-full md:w-1/2 h-screen flex flex-col items-center">
           <div
             className="w-3/4 flex flex-col mx-auto gap-10 py-10"
             data-aos="fade-left"
@@ -97,63 +90,67 @@ function Contact() {
                 Contact
               </h1>
             </div>
-            <form onSubmit={handleSubmit} className="flex flex-col gap-4 ">
-              <div className="flex flex-col gap-2">
-                <label
-                  htmlFor="name"
-                  type="text"
-                  className="text-custom-red text-xl"
+            {/* Conditionally render form or success message */}
+            {state.succeeded ? (
+              <p>
+                Thanks for emailing us. We will get back to you as soon as
+                possible. No Borders..Just Music!
+              </p>
+            ) : (
+              <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+                <div className="flex flex-col gap-2">
+                  <label htmlFor="name" className="text-custom-red text-xl">
+                    Name
+                  </label>
+                  <input
+                    className="p-4 bg-transparent border border-gray-700 outline-none"
+                    name="name"
+                    id="name"
+                  />
+                </div>
+                <div className="flex flex-col gap-2">
+                  <label htmlFor="email" className="text-custom-red text-xl">
+                    Email
+                  </label>
+                  <input
+                    className="p-4 bg-transparent border border-gray-700 outline-none"
+                    name="email"
+                    id="email"
+                    type="email"
+                    required
+                  />
+                  <ValidationError
+                    prefix="Email"
+                    field="email"
+                    errors={state.errors}
+                  />
+                </div>
+                <div className="flex flex-col gap-2">
+                  <label htmlFor="message" className="text-custom-red text-xl">
+                    Message
+                  </label>
+                  <textarea
+                    className="p-2 bg-transparent border border-gray-700 outline-none"
+                    rows="5"
+                    name="message"
+                    id="message"
+                    required
+                  />
+                  <ValidationError
+                    prefix="Message"
+                    field="message"
+                    errors={state.errors}
+                  />
+                </div>
+                <button
+                  type="submit"
+                  disabled={state.submitting}
+                  className="bg-red-600 hover:bg-custom-red hover:scale-110 font-bold ease-in duration-300 rounded-md text-md text-white px-4 py-4 w-full md:w-1/3"
                 >
-                  Name
-                </label>
-                <input
-                  className="p-4 bg-transparent border border-gray-700 outline-none"
-                  name="name"
-                  id="name"
-                />
-              </div>
-              <div className="flex flex-col gap-2">
-                <label htmlFor="email" className="text-custom-red text-xl">
-                  Email
-                </label>
-                <input
-                  className="p-4  bg-transparent border border-gray-700 outline-none"
-                  name="email"
-                  id="email"
-                  type="email"
-                  required
-                />
-                <ValidationError
-                  prefix="Email"
-                  field="email"
-                  errors={state.errors}
-                />
-              </div>
-              <div className="flex flex-col gap-2">
-                <label type="text" className="text-custom-red text-xl">
-                  Message
-                </label>
-                <textarea
-                  className="p-2   bg-transparent border border-gray-700 outline-none"
-                  rows="5"
-                  name="message"
-                  id="message"
-                  required
-                ></textarea>
-                <ValidationError
-                  prefix="Message"
-                  field="message"
-                  errors={state.errors}
-                />
-              </div>
-              <button
-                type="submit"
-                disabled={state.submitting}
-                className="bg-red-600 hover:bg-custom-red hover:scale-110 font-bold ease-in duration-300 rounded-md text-md text-white px-4 py-4 w-full  md:w-1/3"
-              >
-                Send
-              </button>
-            </form>
+                  Send
+                </button>
+              </form>
+            )}
           </div>
         </div>
       </div>
