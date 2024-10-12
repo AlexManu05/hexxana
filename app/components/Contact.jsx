@@ -11,7 +11,6 @@ import "aos/dist/aos.css";
 function Contact() {
   const [state, handleSubmit] = useForm("mdkoonyg");
 
-  // Ensure hooks are called unconditionally
   useEffect(() => {
     AOS.init({
       duration: 1000,
