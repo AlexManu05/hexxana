@@ -12,7 +12,17 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        "custom-red": "#b91c1c",
+      },
+      fontFamily: {
+        loura: ["Loura", "sans-serif"],
+        haext: ["Haext", "sans-serif"],
+        jotunheim: ["Jotunheim", "sans-serif"],
+        noatun: ["Noatun", "sans-serif"],
+      },
     },
   },
-  plugins: [],
+  darkMode: "media",
+  plugins: [require("tailwindcss-animated")],
 };
