@@ -21,12 +21,12 @@ const About = () => {
           realms where gods and spirits roam.
         </p>
         <p>
-          Led by the captivating vocals of Ana-Maria and accompanied by a
-          talented ensemble of five musicians. Ana-Maria&rsquo;s enchanting
-          voice weaves effortlessly through the intricate melodies created by
-          her bandmates, they create a spellbinding atmosphere that resonates
-          with audiences of all ages, captivating listeners with each note and
-          lyric.
+          Led by the captivating vocals of Hexxi (Ana-Maria Suruniuc) and
+          accompanied by a talented ensemble of musicians. Hexxi&rsquo;s
+          enchanting voice weaves effortlessly through the intricate melodies
+          created by her bandmates, they create a spellbinding atmosphere that
+          resonates with audiences of all ages, captivating listeners with each
+          note and lyric.
         </p>
         <p>
           Join the tribe and embark on a musical odyssey that transcends borders
