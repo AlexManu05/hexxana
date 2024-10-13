@@ -11,10 +11,10 @@ const VideoCarousel = () => {
         <h1 className="text-5xl font-loura font-bold text-white">Videos</h1>
       </div>
       <div className="w-full flex flex-col md:flex-row md:p-10  gap-8 mx-auto">
-        <div className="w-full h-[316px] md:w-1/3">
+        <div className="w-full h-[300px] md:w-1/3">
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/embed/ZPXadkiUbpw?si=VDnPGDHGBXJwNB50"
+            src="https://www.youtube.com/embed/bzTCrFqHSeU?si=PFG-QUG5xMb6bVvQ"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -22,10 +22,10 @@ const VideoCarousel = () => {
             allowFullScreen
           ></iframe>
         </div>
-        <div className="w-full h-[316px] md:w-1/3">
+        <div className="w-full h-[300px] md:w-1/3">
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/embed/6G-6aBkbBWQ?si=XMOG86NmBVfivWpX"
+            src="https://www.youtube.com/embed/8YA3JCCMVhY?si=gtLpIcdFwr3-lcP3"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -33,7 +33,7 @@ const VideoCarousel = () => {
             allowFullScreen
           ></iframe>
         </div>
-        <div className="w-full h-[316px] md:w-1/3">
+        <div className="w-full h-[300px] md:w-1/3">
           <iframe
             className="w-full h-full"
             src="https://www.youtube.com/embed/Ifl1FcXuYfw?si=lSiWf1OYN35oJf6R"

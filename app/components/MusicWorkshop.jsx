@@ -34,7 +34,10 @@ const MusicWorkshop = () => {
             no other. Engage with instruments, unleash your creativity, and
             learn how to express yourself through sound.
           </p>
-          <a href="mailto:hexxanasu@yahoo.com" className="text-custom-red">
+          <a
+            href="mailto:hexxanasu@yahoo.com"
+            className="text-custom-red text-md"
+          >
             hexxanasu@yahoomail.com
           </a>
         </div>
