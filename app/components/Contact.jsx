@@ -34,17 +34,13 @@ function Contact() {
               <h1 className="text-4xl md:text-6xl font-loura font-bold text-custom-red">
                 HexxanaSu
               </h1>
-              <p className="text-xl italic font-light">
-                hexxanasu@yahoomail.com
-              </p>
+              <p className="text-xl italic font-light">hexxanasu@yahoo.com</p>
             </div>
             <div>
               <h1 className="text-4xl md:text-6xl font-loura font-bold text-custom-red">
                 Bookings
               </h1>
-              <p className="text-xl italic font-light">
-                hexxanasu@yahoomail.com
-              </p>
+              <p className="text-xl italic font-light">hexxanasu@yahoo.com</p>
             </div>
             <div className="flex flex-col gap-4">
               <h1 className="text-4xl md:text-6xl font-loura font-bold text-custom-red">

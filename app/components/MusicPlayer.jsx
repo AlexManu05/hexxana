@@ -8,7 +8,10 @@ const MusicPlayer = () => {
     { title: "FIR3 IN M3", src: "/audio/fire.mp3" },
     { title: "Cu Mine", src: "/audio/cu_mine.mp3" },
     { title: "Tei Goi", src: "/audio/tei_goi.mp3" },
-    { title: "Spune Da", src: "/audio/spune_da.mp3" },
+    {
+      title: "Octave Ft. Hexxi ( Bonus Track ) - Spune Da",
+      src: "/audio/spune_da.mp3",
+    },
   ];
 
   const [isPlaying, setIsPlaying] = useState(false);

@@ -29,7 +29,7 @@ const MusicWorkshop = () => {
             Animal Impro Workshops with Hexxi
           </h1>
           <p className="text-lg mb-4">
-            Join us in exploring the wild, improvisational world of music! Our
+            Join me in exploring the wild, improvisational world of music! This
             Animal Impro Workshops will take you through a musical journey like
             no other. Engage with instruments, unleash your creativity, and
             learn how to express yourself through sound.
@@ -38,7 +38,7 @@ const MusicWorkshop = () => {
             href="mailto:hexxanasu@yahoo.com"
             className="text-custom-red text-md"
           >
-            hexxanasu@yahoomail.com
+            hexxanasu@yahoo.com
           </a>
         </div>
       </div>

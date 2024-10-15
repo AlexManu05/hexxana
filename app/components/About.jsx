@@ -24,9 +24,9 @@ const About = () => {
           Led by the captivating vocals of Hexxi (Ana-Maria Suruniuc) and
           accompanied by a talented ensemble of musicians. Hexxi&rsquo;s
           enchanting voice weaves effortlessly through the intricate melodies
-          created by her bandmates, they create a spellbinding atmosphere that
-          resonates with audiences of all ages, captivating listeners with each
-          note and lyric.
+          created by herself and her warlocks, they create a spellbinding
+          atmosphere that resonates with audiences of all ages, captivating
+          listeners with each note and lyric.
         </p>
         <p>
           Join the tribe and embark on a musical odyssey that transcends borders
