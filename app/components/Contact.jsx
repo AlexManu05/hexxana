@@ -87,7 +87,6 @@ function Contact() {
               </h1>
             </div>
 
-            {/* Render form or success message */}
             {!state.succeeded ? (
               <form onSubmit={handleSubmit} className="flex flex-col gap-4">
                 <div className="flex flex-col gap-2">

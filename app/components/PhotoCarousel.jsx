@@ -35,7 +35,8 @@ const images = [
   "/hexxana25.jpeg",
   "/hexxana26.jpeg",
   "/hexxana27.jpeg",
-  "/hex15.jpg",
+  "/hexxana28.jpg",
+  "/hexxana29.jpg",
 ];
 
 const App = () => {
