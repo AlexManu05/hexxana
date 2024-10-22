@@ -14,7 +14,7 @@ const VideoCarousel = () => {
         <div className="w-full h-[300px] md:w-1/3">
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/embed/bzTCrFqHSeU?si=PFG-QUG5xMb6bVvQ"
+            src="https://www.youtube.com/embed/kF8g6f74nY0?si=NWFhDbz4d79ddMi5"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

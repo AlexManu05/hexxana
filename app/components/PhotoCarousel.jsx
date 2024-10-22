@@ -39,6 +39,9 @@ const images = [
   "/hexxana29.jpg",
   "/hexxana30.jpeg",
   "/hexxana31.jpeg",
+  "/hexxana32.jpeg",
+  "/hexxana33.jpeg",
+  "/hexxana34.jpeg",
 ];
 
 const App = () => {
