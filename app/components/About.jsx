@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { AiOutlineInstagram, AiOutlineYoutube } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa6";
-import { FaTiktok } from "react-icons/fa";
+import { FaTiktok, FaSpotify } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -60,6 +60,12 @@ const About = () => {
             className="text-white hover:text-custom-red hover:scale-125 ease-in duration-300"
           >
             <FaTiktok size={30} className="cursor-pointer" />
+          </Link>
+          <Link
+            href="https://open.spotify.com/artist/0xLox7P5qOG3dSrhCpdERN"
+            className="text-white hover:text-custom-red hover:scale-125 ease-in duration-300"
+          >
+            <FaSpotify size={30} className="cursor-pointer" />
           </Link>
         </div>
       </div>
