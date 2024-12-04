@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { FaFacebookF } from "react-icons/fa6";
-import { FaTiktok } from "react-icons/fa";
+import { FaTiktok, FaSpotify } from "react-icons/fa";
 import { AiOutlineInstagram, AiOutlineYoutube } from "react-icons/ai";
 import Link from "next/link";
 import AOS from "aos";
@@ -70,6 +70,18 @@ function Contact() {
                   className="bg-transparent border-2 border-gray-700 rounded-full p-2 hover:text-custom-red hover:rotate-[360deg] transition-transform duration-1000"
                 >
                   <FaTiktok size={24} className="cursor-pointer" />
+                </Link>
+                <Link
+                  href="https://www.tiktok.com/@anasuruniuc.hexxanasu"
+                  className="bg-transparent border-2 border-gray-700 rounded-full p-2 hover:text-custom-red hover:rotate-[360deg] transition-transform duration-1000"
+                >
+                  <FaTiktok size={24} className="cursor-pointer" />
+                </Link>
+                <Link
+                  href="https://open.spotify.com/artist/0xLox7P5qOG3dSrhCpdERN"
+                  className="bg-transparent border-2 border-gray-700 rounded-full p-2 hover:text-custom-red hover:rotate-[360deg] transition-transform duration-1000"
+                >
+                  <FaSpotify size={24} className="cursor-pointer" />
                 </Link>
               </div>
             </div>
