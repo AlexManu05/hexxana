@@ -3,6 +3,7 @@ import Introduction from "./components/Introduction";
 import About from "./components/About";
 import Videos from "./components/Videos";
 import Contact from "./components/Contact";
+import Events from "./components/Events";
 import Footer from "./components/Footer";
 import PhotoCarousel from "./components/PhotoCarousel";
 import LogoComponent from "./components/LogoComponent";
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <Introduction />
       <LogoComponent />
+      <Events />
       <About />
       <MusicPlayer />
       <PhotoCarousel />

@@ -9,6 +9,7 @@ import "swiper/css/thumbs";
 import "../../styles/styles.css";
 
 const images = [
+  "/hexxana48.jpeg",
   "/hex14.jpg",
   "/hexxana2.jpeg",
   "/hexxana3.jpeg",
@@ -35,7 +36,6 @@ const images = [
   "/hexxana25.jpeg",
   "/hexxana26.jpeg",
   "/hexxana27.jpeg",
-  "/hexxana28.jpg",
   "/hexxana29.jpg",
   "/hexxana30.jpeg",
   "/hexxana31.jpeg",
@@ -54,7 +54,6 @@ const images = [
   "/hexxana45.jpeg",
   "/hexxana46.jpeg",
   "/hexxana47.jpeg",
-  "/hexxana48.jpeg",
   "/hexxana49.jpeg",
 ];
 
