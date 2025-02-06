@@ -36,7 +36,7 @@ const Hero = () => {
       />
 
       {isVisible && (
-        <div className="text-center top-1/2 right-1 absolute md:top-1/3 md:right-1/2  md:text-start text-white animate-fade-right animate-once animate-duration-[700ms] animate-delay-500 animate-ease-in flex flex-col justify-center tracking-wide font-bold ">
+        <div className=" w-full text-center top-1/2 absolute md:right-1/4 md:top-1/3   text-white animate-fade-right animate-once animate-duration-[700ms] animate-delay-500 animate-ease-in flex flex-col justify-center tracking-wide font-bold ">
           <h1 className="text-6xl md:text-8xl font-loura shadow-rose-800 ">
             NO BORDERS
           </h1>
