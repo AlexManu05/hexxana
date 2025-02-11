@@ -23,6 +23,21 @@ export default function FutureEvents() {
       >
         <SwiperSlide className="flex justify-center items-center h-full">
           <a
+            href="https://www.facebook.com/photo?fbid=9168709636501795&set=a.550929478279897"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full h-full"
+          >
+            <img
+              src="/jamsession.jpeg"
+              alt="Example Website"
+              className="w-full h-full object-cover rounded-lg"
+            />
+          </a>
+        </SwiperSlide>
+
+        <SwiperSlide className="flex justify-center items-center h-full">
+          <a
             href="https://rausgegangen.de/en/events/doc-amok-hexxanasu-band-1/"
             target="_blank"
             rel="noopener noreferrer"
