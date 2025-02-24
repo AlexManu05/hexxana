@@ -22,6 +22,13 @@ export default function FutureEvents() {
         className="w-[90%] sm:w-[50%] md:w-[40%] h-[70%] bg-black/60 rounded-lg shadow-xl"
       >
         <SwiperSlide className="flex justify-center items-center h-full">
+          <img
+            src="/event3.jpg"
+            alt="Example Website"
+            className="w-full h-full object-cover rounded-lg"
+          />
+        </SwiperSlide>
+        <SwiperSlide className="flex justify-center items-center h-full">
           <a
             href="https://www.facebook.com/photo?fbid=9168709636501795&set=a.550929478279897"
             target="_blank"
