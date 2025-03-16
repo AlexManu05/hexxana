@@ -35,13 +35,12 @@ const VideoCarousel = () => {
         </div>
         <div className="w-full h-[300px] md:w-1/3">
           <iframe
-            width="1280"
-            height="743"
+            className="w-full h-full"
             src="https://www.youtube.com/embed/fMu0N5MzX84"
             title="Tei goi (Orchestra Version)"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
+            referrerPolicy="strict-origin-when-cross-origin"
             allowfullscreen
           ></iframe>
         </div>
