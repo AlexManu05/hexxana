@@ -62,7 +62,7 @@ const About = () => {
             <FaTiktok size={30} className="cursor-pointer" />
           </Link>
           <Link
-            href="https://open.spotify.com/artist/0xLox7P5qOG3dSrhCpdERN"
+            href="https://open.spotify.com/track/0AYcAjEVQm2GVxeijp2exO?si=EKtssR8BQ9W4Uuj1rEnS6A&nd=1&dlsi=a1391a7797784df9"
             className="text-white hover:text-custom-red hover:scale-125 ease-in duration-300"
           >
             <FaSpotify size={30} className="cursor-pointer" />
