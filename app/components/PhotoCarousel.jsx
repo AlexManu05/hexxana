@@ -68,7 +68,6 @@ const images = [
   "/hexxana60.jpeg",
   "/hexxana61.jpeg",
   "/hexxana62.jpeg",
-
   "/hexxana64.jpeg",
 ];
 
