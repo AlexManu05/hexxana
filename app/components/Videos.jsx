@@ -24,24 +24,26 @@ const VideoCarousel = () => {
         </div>
         <div className="w-full h-[300px] md:w-1/3">
           <iframe
-            className="w-full h-full"
-            src="https://www.youtube.com/embed/fiD2tje-xv8?si=ajRkXU19FLQRxFro"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/r9EANdq8dfc?si=SAJvmVHOFyrdpFMz"
             title="YouTube video player"
-            frameBorder="0"
+            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
           ></iframe>
         </div>
         <div className="w-full h-[300px] md:w-1/3">
           <iframe
-            className="w-full h-full"
-            src="https://www.youtube.com/embed/fMu0N5MzX84?si=KVJt7zT2VgOlRhm1"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/S_FQJ_udwBs?si=2_h29UEGuGwVHzwl"
             title="YouTube video player"
-            frameBorder="0"
+            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
           ></iframe>
         </div>
       </div>

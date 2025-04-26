@@ -9,6 +9,7 @@ import "swiper/css/thumbs";
 import "../../styles/styles.css";
 
 const images = [
+  "/hexxana63.jpeg",
   "/hexxana50.jpeg",
   "/hexxana48.jpeg",
   "/hex14.jpg",
@@ -60,59 +61,16 @@ const images = [
   "/hexxana53.jpeg",
   "/hexxana54.jpeg",
   "/hexxana55.jpeg",
+  "/hexxana56.jpeg",
+  "/hexxana57.jpeg",
+  "/hexxana58.jpeg",
+  "/hexxana59.jpeg",
+  "/hexxana60.jpeg",
+  "/hexxana61.jpeg",
+  "/hexxana62.jpeg",
+
+  "/hexxana64.jpeg",
 ];
-
-// const App = () => {
-//   const [thumbsSwiper, setThumbsSwiper] = useState(null);
-
-//   return (
-//     <section
-//       id="photos"
-//       className="w-full h-screen p-10 bg-black flex flex-col justify-center"
-//     >
-//       <h1 className="text-5xl font-loura font-bold text-white mx-auto py-8  ">
-//         Photos
-//       </h1>
-//       <Swiper
-//         style={{
-//           "--swiper-navigation-color": "#fff",
-//           "--swiper-pagination-color": "#fff",
-//           "--swiper-navigation-size": "20px" /* Adjusts button icon size */,
-//         }}
-//         loop={true}
-//         spaceBetween={10}
-//         navigation={true}
-//         thumbs={{ swiper: thumbsSwiper }}
-//         modules={[FreeMode, Navigation, Thumbs]}
-//         className="mySwiper2 "
-//       >
-//         {images.map((image, index) => (
-//           <SwiperSlide key={index}>
-//             <img src={image} alt="band photo" className="rounded-lg mb-6" />
-//           </SwiperSlide>
-//         ))}
-//       </Swiper>
-//       <Swiper
-//         onSwiper={setThumbsSwiper}
-//         loop={true}
-//         spaceBetween={10}
-//         slidesPerView={3}
-//         freeMode={true}
-//         watchSlidesProgress={true}
-//         modules={[FreeMode, Navigation, Thumbs]}
-//         className="mySwiper"
-//       >
-//         {images.map((image, index) => (
-//           <SwiperSlide key={index}>
-//             <img src={image} alt="thumbnail image" />
-//           </SwiperSlide>
-//         ))}
-//       </Swiper>
-//     </section>
-//   );
-// };
-
-// export default App;
 
 const App = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
