@@ -36,7 +36,7 @@ const VideoCarousel = () => {
         <div className="w-full h-[300px] md:w-1/3">
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/embed/S_FQJ_udwBs?si=2_h29UEGuGwVHzwl"
+            src="https://www.youtube.com/embed/Ifl1FcXuYfw?si=Nb8GTRVHKgXLnKn1"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -46,7 +46,7 @@ const VideoCarousel = () => {
         </div>
       </div>
       <Link
-        href="https://www.youtube.com/@anasuruniuc.hexxanasu/videos"
+        href="https://www.youtube.com/@HexxanaSu"
         className="bg-red-600 hover:bg-custom-red hover:scale-110 font-bold  ease-in duration-300 rounded-md text-sm text-white px-4 py-4 w-64 flex justify-center mx-auto md:ml-60 mb-6"
       >
         WATCH MORE ON YOUTUBE
