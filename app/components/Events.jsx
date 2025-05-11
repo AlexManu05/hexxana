@@ -23,39 +23,17 @@ export default function FutureEvents() {
       >
         <SwiperSlide className="flex justify-center items-center h-full">
           <img
-            src="/event3.jpg"
+            src="/event5.jpeg"
             alt="Example Website"
             className="w-full h-full object-cover rounded-lg"
           />
         </SwiperSlide>
         <SwiperSlide className="flex justify-center items-center h-full">
-          <a
-            href="https://www.facebook.com/photo?fbid=9168709636501795&set=a.550929478279897"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full h-full"
-          >
-            <img
-              src="/jamsession.jpeg"
-              alt="Example Website"
-              className="w-full h-full object-cover rounded-lg"
-            />
-          </a>
-        </SwiperSlide>
-
-        <SwiperSlide className="flex justify-center items-center h-full">
-          <a
-            href="https://rausgegangen.de/en/events/doc-amok-hexxanasu-band-1/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full h-full"
-          >
-            <img
-              src="/concertbook.png"
-              alt="Example Website"
-              className="w-full h-full object-cover rounded-lg"
-            />
-          </a>
+          <img
+            src="/event3.jpg"
+            alt="Example Website"
+            className="w-full h-full object-cover rounded-lg"
+          />
         </SwiperSlide>
 
         {/* First Slide: Image */}
@@ -64,15 +42,6 @@ export default function FutureEvents() {
             src="/event2.jpeg"
             alt="Event 1"
             className="w-full h-full object-cover rounded-lg"
-          />
-        </SwiperSlide>
-
-        {/* Second Slide: Video */}
-        <SwiperSlide className="flex justify-center items-center h-full">
-          <video
-            src="/event1.mp4"
-            controls
-            className="w-full h-full object-contain rounded-lg"
           />
         </SwiperSlide>
 
