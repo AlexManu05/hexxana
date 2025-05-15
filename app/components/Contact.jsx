@@ -54,13 +54,13 @@ function Contact() {
                   <FaFacebookF size={24} className="cursor-pointer" />
                 </Link>
                 <Link
-                  href="https://www.youtube.com/@anasuruniuc.hexxanasu/videos"
+                  href="https://www.youtube.com/@HexxanaSu"
                   className="bg-transparent border-2 border-gray-700 rounded-full p-2 hover:text-custom-red hover:rotate-[360deg] transition-transform duration-1000"
                 >
                   <AiOutlineYoutube size={24} className="cursor-pointer" />
                 </Link>
                 <Link
-                  href="https://www.instagram.com/anasuruniuc.hexxanasu/"
+                  href="https://www.instagram.com/hexxanasu.band"
                   className="bg-transparent border-2 border-gray-700 rounded-full p-2 hover:text-custom-red hover:rotate-[360deg] transition-transform duration-1000"
                 >
                   <AiOutlineInstagram size={24} className="cursor-pointer" />

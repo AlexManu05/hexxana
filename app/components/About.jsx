@@ -44,13 +44,13 @@ const About = () => {
             <FaFacebookF size={28} className="cursor-pointer" />
           </Link>
           <Link
-            href="https://www.instagram.com/anasuruniuc.hexxanasu/"
+            href="https://www.instagram.com/hexxanasu.band"
             className="text-white hover:text-custom-red hover:scale-125 ease-in duration-300"
           >
             <AiOutlineInstagram size={30} className="cursor-pointer" />
           </Link>
           <Link
-            href="https://www.youtube.com/@anasuruniuc.hexxanasu/videos"
+            href="https://www.youtube.com/@HexxanaSu"
             className="text-white hover:text-custom-red hover:scale-125 ease-in duration-300"
           >
             <AiOutlineYoutube size={30} className="cursor-pointer" />
