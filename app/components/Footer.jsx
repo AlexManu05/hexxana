@@ -26,7 +26,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/anasuruniuc.hexxanasu/"
+                href="https://www.instagram.com/hexxanasu.band/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-custom-red"
@@ -36,7 +36,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.youtube.com/@anasuruniuc.hexxanasu/videos"
+                href="https://www.youtube.com/@HexxanaSu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-custom-red"
