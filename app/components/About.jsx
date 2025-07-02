@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full min-h-screen mb-20 bg-black text-sm md:text-xl font-bold flex flex-col bg-[url('../public/lgbandcover.jpg')] md:bg-cover bg-contain bg-no-repeat"
+      className="w-full min-h-screen mb-5 bg-black text-sm md:text-xl font-bold flex flex-col bg-[url('../public/lgbandcover.jpg')] md:bg-cover bg-contain bg-no-repeat"
     >
       <div className="w-full h-full md:w-2/5 md:h-full md:ml-40 flex flex-col justify-center gap-8 text-gray-100 pt-20 px-8 font-light text-lg">
         {/* <h1 className="text-3xl white font-bold font-loura">About HexxanaSU</h1>

@@ -65,12 +65,7 @@ function Contact() {
                 >
                   <AiOutlineInstagram size={24} className="cursor-pointer" />
                 </Link>
-                <Link
-                  href="https://www.tiktok.com/@anasuruniuc.hexxanasu"
-                  className="bg-transparent border-2 border-gray-700 rounded-full p-2 hover:text-custom-red hover:rotate-[360deg] transition-transform duration-1000"
-                >
-                  <FaTiktok size={24} className="cursor-pointer" />
-                </Link>
+
                 <Link
                   href="https://open.spotify.com/track/0AYcAjEVQm2GVxeijp2exO?si=EKtssR8BQ9W4Uuj1rEnS6A&nd=1&dlsi=a1391a7797784df9"
                   className="bg-transparent border-2 border-gray-700 rounded-full p-2 hover:text-custom-red hover:rotate-[360deg] transition-transform duration-1000"
