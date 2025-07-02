@@ -25,7 +25,7 @@ const MusicWorkshop = () => {
 
         {/* Right side (Text) */}
         <div className="md:w-1/2 w-full text-center md:text-left">
-          <h1 className="text-4xl font-bold mb-4">
+          <h1 className="text-4xl font-loura mb-4">
             Animal Impro Workshops with Hexxi
           </h1>
           <p className="text-lg mb-4">
@@ -36,7 +36,7 @@ const MusicWorkshop = () => {
           </p>
           <a
             href="mailto:hexxanasu@yahoo.com"
-            className="text-custom-red text-md"
+            className="text-custom-red text-xl"
           >
             hexxanasu@yahoo.com
           </a>

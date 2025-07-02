@@ -47,7 +47,7 @@ const VideoCarousel = () => {
       </div>
       <Link
         href="https://www.youtube.com/@HexxanaSu"
-        className="bg-red-600 hover:bg-custom-red hover:scale-110 font-bold  ease-in duration-300 rounded-md text-sm text-white px-4 py-4 w-64 flex justify-center mx-auto md:ml-60 mb-6"
+        className="bg-red-600 hover:bg-custom-red hover:scale-110 font-semibold  ease-in duration-300 rounded-md text-sm text-white px-4 py-4 w-64 flex justify-center mx-auto md:ml-60 mb-6"
       >
         WATCH MORE ON YOUTUBE
       </Link>

@@ -23,29 +23,26 @@ export default function FutureEvents() {
       >
         <SwiperSlide className="flex justify-center items-center h-full">
           <img
-            src="/event5.jpeg"
-            alt="Example Website"
+            src="/contest.png"
+            alt="event"
+            className="w-full h-full object-cover rounded-lg"
+          />
+        </SwiperSlide>
+        <SwiperSlide className="flex justify-center items-center h-full">
+          <img
+            src="/jam.png"
+            alt="event"
             className="w-full h-full object-cover rounded-lg"
           />
         </SwiperSlide>
         <SwiperSlide className="flex justify-center items-center h-full">
           <img
             src="/event3.jpg"
-            alt="Example Website"
+            alt="event"
             className="w-full h-full object-cover rounded-lg"
           />
         </SwiperSlide>
 
-        {/* First Slide: Image */}
-        <SwiperSlide className="flex justify-center items-center h-full">
-          <img
-            src="/event2.jpeg"
-            alt="Event 1"
-            className="w-full h-full object-cover rounded-lg"
-          />
-        </SwiperSlide>
-
-        {/* Third Slide: Another Image */}
         <SwiperSlide className="flex justify-center items-center h-full">
           <video
             src="/event3.mp4"

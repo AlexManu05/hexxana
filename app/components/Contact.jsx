@@ -100,7 +100,7 @@ function Contact() {
                     Name
                   </label>
                   <input
-                    className="p-4 bg-transparent border border-gray-700 outline-none"
+                    className="px-4 py-2 bg-transparent border border-custom-red rounded-sm outline-none"
                     name="name"
                     id="name"
                     required
@@ -111,7 +111,7 @@ function Contact() {
                     Email
                   </label>
                   <input
-                    className="p-4 bg-transparent border border-gray-700 outline-none"
+                    className="px-4 py-2 bg-transparent border border-custom-red rounded-sm outline-none"
                     name="email"
                     id="email"
                     type="email"
@@ -128,7 +128,7 @@ function Contact() {
                     Message
                   </label>
                   <textarea
-                    className="p-2 bg-transparent border border-gray-700 outline-none"
+                    className="px-4 py-2 bg-transparent border border-custom-red rounded-sm outline-none"
                     rows="5"
                     name="message"
                     id="message"
@@ -143,9 +143,9 @@ function Contact() {
                 <button
                   type="submit"
                   disabled={state.submitting}
-                  className="bg-red-600 hover:bg-custom-red hover:scale-110 font-bold ease-in duration-300 rounded-md text-md text-white px-4 py-4 w-full md:w-1/3"
+                  className="bg-red-600 hover:bg-custom-red hover:scale-105 font-semibold ease-in duration-300 rounded-md text-md text-white px-4 py-4 w-full md:w-1/3"
                 >
-                  Send
+                  SEND
                 </button>
               </form>
             ) : (
