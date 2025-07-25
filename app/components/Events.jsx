@@ -30,6 +30,13 @@ export default function FutureEvents() {
         </SwiperSlide>
         <SwiperSlide className="flex justify-center items-center h-full">
           <img
+            src="/event1.jpeg"
+            alt="event"
+            className="w-full h-full object-cover rounded-lg"
+          />
+        </SwiperSlide>
+        <SwiperSlide className="flex justify-center items-center h-full">
+          <img
             src="/jam.png"
             alt="event"
             className="w-full h-full object-cover rounded-lg"
