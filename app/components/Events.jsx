@@ -22,6 +22,13 @@ export default function FutureEvents() {
         className="w-[90%] sm:w-[50%] md:w-[40%] h-[70%] bg-black/60 rounded-lg shadow-xl"
       >
         <SwiperSlide className="flex justify-center items-center h-full">
+          <video
+            src="/eventana.mp4"
+            controls
+            className="w-full h-full object-contain rounded-lg"
+          />
+        </SwiperSlide>
+        <SwiperSlide className="flex justify-center items-center h-full">
           <img
             src="/contest.png"
             alt="event"
