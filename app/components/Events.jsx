@@ -56,14 +56,6 @@ export default function FutureEvents() {
             className="w-full h-full object-cover rounded-lg"
           />
         </SwiperSlide>
-
-        <SwiperSlide className="flex justify-center items-center h-full">
-          <video
-            src="/event3.mp4"
-            controls
-            className="w-full h-full object-contain rounded-lg"
-          />
-        </SwiperSlide>
       </Swiper>
     </div>
   );
