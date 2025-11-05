@@ -95,6 +95,14 @@ const images = [
   "/hexxana66.jpeg",
   "/hexxana67.jpeg",
   "/hexxana68.jpeg",
+  "/hexxana80.jpg",
+  "/hexxana81.jpg",
+  "/hexxana82.jpg",
+  "/hexxana83.jpg",
+  "/hexxana84.jpg",
+  "/hexxana85.jpg",
+  "/hexxana86.jpg",
+  "/hexxana87.jpg",
 ];
 
 const App = () => {
