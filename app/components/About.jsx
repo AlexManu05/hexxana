@@ -29,7 +29,7 @@ const About = () => {
           listeners with each note and lyric.
         </p>
         */}
-        <p className="text-2xl md:text-3xl font-loura text-custom-red">
+        <p className="text-2xl md:text-3xl font-loura text-white">
           Join the tribe and embark on a musical odyssey that transcends borders
           and connects souls.{" "}
         </p>

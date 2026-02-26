@@ -181,13 +181,13 @@ const MusicPlayer = () => {
               <span className="text-base font-semibold uppercase text-gray-400">
                 Playlist
               </span>
-              <Image
+              {/* <Image
                 className="w-4 cursor-pointer"
-                src="/hexxana8.jpeg"
+                src="/hexxana17.jpeg"
                 alt="filter"
                 width={16}
                 height={16}
-              />
+              /> */}
             </div>
 
             {songs.map((song, index) => (
@@ -201,7 +201,7 @@ const MusicPlayer = () => {
                 <Image
                   className="w-10 h-10 object-cover rounded-lg"
                   alt="Song cover"
-                  src="/hexxana8.jpeg"
+                  src="/hexxana17.jpeg"
                   width={40}
                   height={40}
                 />

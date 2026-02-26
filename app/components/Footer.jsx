@@ -10,7 +10,7 @@ const Footer = () => {
             href={"https://www.instagram.com/alexmanum/"}
             className="text-sm"
           >
-            Created By <span className="text-custom-red">Alex ManuM</span>{" "}
+            Created By <span className="text-custom-red text-lg"> ManuM </span>{" "}
             Design
           </Link>
           <ul className="flex space-x-4">
